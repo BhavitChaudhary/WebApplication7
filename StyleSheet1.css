@@ -1,0 +1,26 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
