@@ -10,7 +10,7 @@
         p {
             font-size: 20px;
         }
-        hello
+     
 
         .welcome-section.aos-init.aos-animate {
             width: 50%;
