@@ -163,6 +163,22 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+button.get-consultation {
+    margin-left: -50px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 20px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    transition: border 0.3s ease-out;
+}
+
+
+
 .header .logo {
   line-height: 1;
 }
@@ -809,6 +825,7 @@ section#hero {
     text-align: center;
 }
 .welcome-section {
+  
     text-align: left;
     margin-top: 70px;
 }
@@ -817,7 +834,9 @@ section#hero {
 
 }
 
-
+div#hero-carousel {
+    margin-top: 50px;
+}
 
 .hero .carousel {
   width: 40%;
@@ -847,16 +866,15 @@ section#hero {
 }
 
 .hero .carousel-item {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center !important;
+    margin-top: -60px;
 }
-
 .hero .container {
   
   position: relative;
@@ -982,14 +1000,16 @@ section#hero {
   background: var(--accent-color);
 }
 
-
+.row.align-items-center.h-100 {
+    margin-top: 99px;
+}
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
 .about .inner-title {
-  font-size: 2.75rem;
-  font-weight: 700;
-  margin: 30px 0;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin: 30px 0;
 }
 
 @media (min-width: 991px) {
@@ -1093,132 +1113,10 @@ section#hero {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.services .service-item {
-  background-color: var(--surface-color);
-  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
-  height: 100%;
-  padding: 60px 30px;
-  text-align: center;
-  transition: 0.3s;
-  border-radius: 5px;
+img.servicess {
+    margin-left: 200px;
+    width: 1000px;
 }
-
-.services .service-item .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-
-.services .service-item .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .service-item .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .service-item .icon svg path {
-  transition: 0.5s;
-  fill: color-mix(in srgb, var(--default-color), transparent 95%);
-}
-
-.services .service-item h3 {
-  font-weight: 700;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .service-item:hover {
-  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
-}
-
-.services .service-item.item-cyan i {
-  color: #0dcaf0;
-}
-
-.services .service-item.item-cyan:hover .icon i {
-  color: #fff;
-}
-
-.services .service-item.item-cyan:hover .icon path {
-  fill: #0dcaf0;
-}
-
-.services .service-item.item-orange i {
-  color: #fd7e14;
-}
-
-.services .service-item.item-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .service-item.item-orange:hover .icon path {
-  fill: #fd7e14;
-}
-
-.services .service-item.item-teal i {
-  color: #20c997;
-}
-
-.services .service-item.item-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .service-item.item-teal:hover .icon path {
-  fill: #20c997;
-}
-
-.services .service-item.item-red i {
-  color: #df1529;
-}
-
-.services .service-item.item-red:hover .icon i {
-  color: #fff;
-}
-
-.services .service-item.item-red:hover .icon path {
-  fill: #df1529;
-}
-
-.services .service-item.item-indigo i {
-  color: #6610f2;
-}
-
-.services .service-item.item-indigo:hover .icon i {
-  color: #fff;
-}
-
-.services .service-item.item-indigo:hover .icon path {
-  fill: #6610f2;
-}
-
-.services .service-item.item-pink i {
-  color: #f3268c;
-}
-
-.services .service-item.item-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .service-item.item-pink:hover .icon path {
-  fill: #f3268c;
-}
-
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/

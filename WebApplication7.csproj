@@ -101,8 +101,10 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\Style1.css" />
     <Content Include="assets\img\about.jpg" />
     <Content Include="assets\img\apple-touch-icon.png" />
+    <Content Include="assets\img\b6d82ed1bd.jpg" />
     <Content Include="assets\img\blog\blog-1.jpg" />
     <Content Include="assets\img\blog\blog-2.jpg" />
     <Content Include="assets\img\blog\blog-3.jpg" />
@@ -154,7 +156,9 @@
     <Content Include="assets\img\portfolio\books-1.jpg" />
     <Content Include="assets\img\portfolio\branding-1.jpg" />
     <Content Include="assets\img\portfolio\product-1.jpg" />
+    <Content Include="assets\img\screencapture-mapletaxconsulting-2025-02-22-13_02_02.png" />
     <Content Include="assets\img\services.jpg" />
+    <Content Include="assets\img\services\pexels-photo-2381069.jpeg" />
     <Content Include="assets\img\team\team-1.jpg" />
     <Content Include="assets\img\team\team-2.jpg" />
     <Content Include="assets\img\team\team-3.jpg" />
@@ -165,6 +169,8 @@
     <Content Include="assets\img\testimonials\testimonials-4.jpg" />
     <Content Include="assets\img\testimonials\testimonials-5.jpg" />
     <Content Include="assets\img\testimonials\testimonials-6.jpg" />
+    <Content Include="assets\img\thisisengineering-sbVu5zitZt0-unsplash.jpg" />
+    <Content Include="assets\img\Wait4Ads A Seamless &amp; User-Friendly Classifieds Experience.png" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\scss\Readme.txt" />
     <Content Include="assets\vendor\aos\aos.cjs.js" />
